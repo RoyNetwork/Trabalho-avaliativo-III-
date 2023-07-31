@@ -1,0 +1,58 @@
+/* Aqui está o CSS que você forneceu */
+
+/* Resetando margens e preenchimentos para evitar espaçamentos indesejados */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplicando uma fonte arredondada e bonita */
+body {
+    font-family: "Arial Rounded MT", "Helvetica Rounded", Arial, sans-serif;
+}
+
+/* Centralizando o conteúdo na página */
+body {
+    position: relative; /* Alterando para posição relativa para posicionar os elementos filhos */
+    display: flex;
+    flex-direction: column; /* Adicionando um novo estilo para organizar o conteúdo em coluna */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso fará com que o conteúdo fique centralizado verticalmente também */
+    background-image: url('Praia do Hawaii.jpg');
+    background-size: cover; /* Para ajustar o tamanho da imagem ao tamanho da tela */
+    background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+}
+
+/* Estilizando os elementos de cabeçalho e parágrafo */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilizando o texto na parte inferior esquerda */
+.texto-inferior-esquerdo {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; /* Ajustando para a esquerda */
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Alterando a cor para branca */
+}
+
+/* Estilizando o texto na parte inferior direita */
+.texto-inferior-direito {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    display: flex; 
+    align-items: center; 
+}
+
